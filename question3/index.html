@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 80%;
+      height: 60%;
+      margin-top: 100px;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <swiper-container class="mySwiper" navigation="true">
+    <swiper-slide>
+        <img src="https://t3.ftcdn.net/jpg/03/91/46/10/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="https://images.freecreatives.com/wp-content/uploads/2016/04/Downlaod-Website-Background.jpg" alt="">
+    </swiper-slide>
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>
